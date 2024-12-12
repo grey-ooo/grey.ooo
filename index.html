@@ -1,0 +1,128 @@
+﻿<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  
+  <!-- Page title -->
+  <title>Grey.ooo</title>
+
+  <link rel="shortcut icon" href="favicon.png">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css"> <!-- Regular stylesheet -->
+  <link rel="stylesheet" href="css/brown.css"> <!-- Pick color scheme (black.css, blue.css, brown.css, dark_green.css, green.css, white.css)-->
+  
+  <!-- Fonts -->
+  <link href="http://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold" rel="stylesheet" type="text/css">
+  
+  <!-- JavaScript -->
+  <script src="js/jquery-1.5.1.min.js"></script> <!-- Load jQuery library -->
+  <script src="js/modernizr-1.7.min.js"></script> <!-- Load Modernizr -->
+</head>
+
+<body>
+  <div id="pattern"><div id="gradient">
+
+    <!-- Image background -->
+	<div id="background_image">
+		<!-- Insert image here -->
+	</div>
+	<!-- Image background end -->
+	
+  
+	<!-- Main page -->
+    <div id="main_page">
+  
+	  <!-- Header -->
+	  <header>
+	    <h1>Grey.ooo</h1> <!-- Set the page title -->
+	  </header>
+	  
+	  <!-- Additional content -->
+	  <div id="content"> &nbsp;
+
+		  
+		  <!-- More info, part 1 -->
+		  <script>
+		    $(function() {
+				$("#show_more_info").click(function () {
+					$("#main_page").fadeOut("slow", function () {
+						$("#more_info_page").fadeIn("slow");				
+					});
+				});
+				$("#show_main").click(function () {
+					$("#more_info_page").fadeOut("slow", function () {
+						$("#main_page").fadeIn("slow");				
+					});
+				});
+			});
+		  </script>
+		  <section class="more_info">
+			<a href="#" id="show_more_info" class="button">Tell me more?</a>
+		  </section>
+		  <!-- More info, part 1 end -->
+		  
+		  
+	  </div>
+	  
+	</div>
+	<!-- Main page end -->
+	
+	<!-- More info, part 2 -->
+	<div id="more_info_page"><div class="dark_background"></div>
+		
+	  <a href="#" id="show_main" class="button">Back</a><div class="clearfix"></div>
+	
+	  <!-- About -->
+	  <section class="about">
+	  
+		<h2>Grey.ooo</h2>
+		
+		<p>Software engineering, infrastructure architecture, scalability and cloud compute.</p>
+	    <p>Extensive experience in on-prem to cloud and cloud to on-prem or cheaper leased bare metal scalable solutions.</p>
+		<h3>Projects</h3>
+		<p>@todo</p>
+
+		
+	  </section>
+	  <!-- About end -->
+	  
+	
+	  <!-- Contact -->
+	  <section class="contact">
+	  
+		<h2>Contact</h2>
+		
+		<!-- First paragraph -->	
+		<p>I must admit, this page mostly exists to satisfy legal and technical requirements more than being a useful site for marketing.</p>
+		<p>However, you might have stumbled here and would like to give me a ring?</p>
+		<!-- First paragraph end -->
+
+		  <!-- Social icons -->
+		  <h3>Social</h3>
+		  <a href=""><img src="img/linkedin.png" alt="LinkedIn" class="social" /></a>
+		  <!-- Social icons end -->
+		
+		<!-- First person contact card -->
+		<p class="person vcard">
+		  <img src="img/avatar.png" alt="John Doe" class="photo" />
+		  <span class="fn n">Matthew B.<em>Senior Systems Engineer</em></span>
+		  <span class="email">matthew@baggett.me</span>
+		  <span class="tel">+31 621 34 82 45</span>
+		  <span class="clearfix"></span>
+		</p>
+		<!-- First person contact card end -->
+	  
+		<div class="clearfix"></div>
+		
+	  </section>
+	  <!-- Contact end-->
+		  
+	</div>
+	<!-- More info, part 2 end -->
+	
+  </div></div>  
+</body>
+</html>
