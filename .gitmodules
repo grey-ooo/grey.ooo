@@ -1,3 +1,0 @@
-[submodule ".trunk/config"]
-	path = .trunk/config
-	url = git@github.com:matthewbaggett/Opinionated-Trunk-Configuration.git
